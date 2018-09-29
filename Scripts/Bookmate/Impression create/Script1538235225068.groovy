@@ -13,3 +13,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+Mobile.startApplication('C:\\Users\\Nick\\Downloads\\application-dev-debug.apk', true)
+
+Mobile.tapAndHold(findTestObject('android.widget.ImageView4'), 0, 0)
+
+Mobile.tap(findTestObject('android.widget.LinearLayout6'), 0)
+
+Mobile.tap(findTestObject('android.widget.FrameLayout3 (1)'), 0)
+
+Mobile.setText(findTestObject('android.widget.LinearLayout0'), 'Nice book!', 0)
+
+Mobile.tap(findTestObject('android.widget.LinearLayout6 (1)'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageButton1'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageButton0'), 0)
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('android.widget.RelativeLayout1'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView4 (1)'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView8'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView2 - '), 0)
+
+Mobile.closeApplication()
+
