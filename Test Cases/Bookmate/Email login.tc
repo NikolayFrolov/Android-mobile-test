@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Авторизация по почте</description>
    <name>Email login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2c55f366-1d34-45f1-8838-1f55a909220d</testCaseGuid>
+   <testCaseGuid>0e751c87-11f0-4e41-8cc4-815d156f47fe</testCaseGuid>
 </TestCaseEntity>
