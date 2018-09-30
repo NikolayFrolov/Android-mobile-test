@@ -15,6 +15,35 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Nick\\Downloads\\application-dev-debug.apk', false)
 
-'Swipe from 200,300 to 400,600 posisition on screen'
-Mobile.swipe(0, 0, 105, 162)
+Mobile.scrollToText('создать полку')
+
+Mobile.tap(findTestObject('android.widget.TextView16 -   (1)'), 0)
+
+Mobile.setText(findTestObject('android.widget.ImageView0'), 'TestShelf', 0)
+
+Mobile.tap(findTestObject('android.widget.EditText1 - '), 0)
+
+Mobile.tap(findTestObject('android.support.v7.widget.LinearLayoutCompat0'), 0)
+
+Mobile.tap(findTestObject('android.widget.RelativeLayout5'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView5 -  '), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView0 (1)'), 0)
+
+Mobile.tap(findTestObject('android.widget.EditText0 -   '), 0)
+
+Mobile.setText(findTestObject('android.widget.EditText0 -   '), 'me gusta', 0)
+
+Mobile.tap(findTestObject('android.widget.ImageButton0 (1)'), 0)
+
+Mobile.tap(findTestObject('android.widget.RelativeLayout1 (1)'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView10'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView2 -  (5)'), 0)
+
+Mobile.pressBack()
+
+Mobile.closeApplication()
 

@@ -18,15 +18,27 @@
       <testCaseId>Test Cases/Bookmate/Email login</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>b9594304-c0d2-474e-bcf7-af580d880414</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bookmate/Quote create</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c23c3d3-8603-4efe-b50a-ef87182a20ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bookmate/zametka create</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2d06f142-04a6-4a82-8932-0bf5f16cb4be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Bookmate/Impression create</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b9594304-c0d2-474e-bcf7-af580d880414</guid>
+      <guid>874cbd94-0a78-42e6-9ac3-730daa009f90</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bookmate/Quote create</testCaseId>
+      <testCaseId>Test Cases/Bookmate/shelf create</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
