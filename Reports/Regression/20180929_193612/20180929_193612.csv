@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression,,,2018-09-29 19:36:25,2018-09-29 19:36:28,"3,768s",FAILED
+,,,,,,
+Test Cases/Bookmate/Email login,,Авторизация по почте,2018-09-29 19:36:25,2018-09-29 19:36:27,"1,280s",FAILED
+startApplication,,,2018-09-29 19:36:26,2018-09-29 19:36:27,"0,392s",FAILED
+,,,,,,
+Test Cases/Bookmate/Impression create,,,2018-09-29 19:36:27,2018-09-29 19:36:27,"0,729s",FAILED
+startApplication,,,2018-09-29 19:36:27,2018-09-29 19:36:27,"0,011s",FAILED
+,,,,,,
+Test Cases/Bookmate/Quote create,,,2018-09-29 19:36:27,2018-09-29 19:36:28,"0,953s",FAILED
+startApplication,,,2018-09-29 19:36:28,2018-09-29 19:36:28,"0,168s",FAILED

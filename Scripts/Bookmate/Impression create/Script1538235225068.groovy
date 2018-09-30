@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\Nick\\Downloads\\application-dev-debug.apk', true)
+Mobile.startApplication('C:\\Users\\Nick\\Downloads\\application-dev-debug.apk', false)
 
 Mobile.tapAndHold(findTestObject('android.widget.ImageView4'), 0, 0)
 
@@ -38,6 +38,8 @@ Mobile.tap(findTestObject('android.widget.ImageView4 (1)'), 0)
 Mobile.tap(findTestObject('android.widget.ImageView8'), 0)
 
 Mobile.tap(findTestObject('android.widget.TextView2 - '), 0)
+
+Mobile.pressBack()
 
 Mobile.closeApplication()
 

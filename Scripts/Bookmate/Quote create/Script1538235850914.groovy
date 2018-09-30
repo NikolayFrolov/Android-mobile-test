@@ -17,7 +17,7 @@ Mobile.startApplication('C:\\Users\\Nick\\Downloads\\application-dev-debug.apk',
 
 Mobile.tap(findTestObject('android.widget.ImageView4 (2)'), 0)
 
-Mobile.tapAndHold(findTestObject('android.view.View3'), 0.02, 0)
+Mobile.tapAndHold(findTestObject('android.view.View3'), 0.005, 0)
 
 Mobile.tap(findTestObject('android.view.View13'), 0)
 

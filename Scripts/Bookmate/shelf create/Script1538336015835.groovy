@@ -15,21 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Nick\\Downloads\\application-dev-debug.apk', false)
 
-Mobile.tap(findTestObject('android.widget.FrameLayout3'), 0)
-
-Mobile.tap(findTestObject('android.widget.FrameLayout3'), 0)
-
-Mobile.tap(findTestObject('android.widget.FrameLayout3'), 0)
-
-Mobile.tap(findTestObject('android.widget.FrameLayout3'), 0)
-
-Mobile.tap(findTestObject('android.widget.TextView5 - '), 0)
-
-Mobile.setText(findTestObject('android.widget.EditText0 -  '), 'pie', 0)
-
-Mobile.tap(findTestObject('android.widget.EditText1'), 0)
-
-Mobile.setText(findTestObject('android.widget.EditText1 (1)'), '1234567', 0)
-
-Mobile.tap(findTestObject('android.widget.FrameLayout5'), 0)
+'Swipe from 200,300 to 400,600 posisition on screen'
+Mobile.swipe(0, 0, 105, 162)
 

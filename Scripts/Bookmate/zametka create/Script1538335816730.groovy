@@ -15,21 +15,27 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Nick\\Downloads\\application-dev-debug.apk', false)
 
-Mobile.tap(findTestObject('android.widget.FrameLayout3'), 0)
+Mobile.tap(findTestObject('android.widget.ImageView4 (3)'), 0)
 
-Mobile.tap(findTestObject('android.widget.FrameLayout3'), 0)
+Mobile.tapAndHold(findTestObject('android.view.View3'), 0.005, 0)
 
-Mobile.tap(findTestObject('android.widget.FrameLayout3'), 0)
+Mobile.tap(findTestObject('android.widget.RelativeLayout3'), 0)
 
-Mobile.tap(findTestObject('android.widget.FrameLayout3'), 0)
+Mobile.setText(findTestObject('android.widget.EditText0 -   (2)'), 'zametka', 0)
 
-Mobile.tap(findTestObject('android.widget.TextView5 - '), 0)
+Mobile.tap(findTestObject('android.widget.TextView1 (1)'), 0)
 
-Mobile.setText(findTestObject('android.widget.EditText0 -  '), 'pie', 0)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('android.widget.EditText1'), 0)
+Mobile.tap(findTestObject('android.widget.TextView8 - '), 0)
 
-Mobile.setText(findTestObject('android.widget.EditText1 (1)'), '1234567', 0)
+Mobile.tap(findTestObject('android.widget.TextView2 -  (3)'), 0)
 
-Mobile.tap(findTestObject('android.widget.FrameLayout5'), 0)
+Mobile.tap(findTestObject('android.widget.ImageView8 (2)'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView2 -  (4)'), 0)
+
+Mobile.pressBack()
+
+Mobile.closeApplication()
 
