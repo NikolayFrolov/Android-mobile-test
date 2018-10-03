@@ -15,29 +15,31 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('/Users/admin/Downloads/application-dev-debug.apk', false)
 
-Mobile.tap(findTestObject('android.widget.ImageView4 (2)'), 0)
+Mobile.tap(findTestObject('android.widget.ImageView0 (3)'), 0)
 
-Mobile.tapAndHold(findTestObject('android.view.View3'), 0.005, 0)
+Mobile.tap(findTestObject('android.widget.ImageView0 (3)'), 0)
 
-Mobile.startApplication('/Users/admin/Downloads/application-dev-debug.apk', true)
+Mobile.tap(findTestObject('android.widget.ImageView0 (3)'), 0)
 
-Mobile.tap(findTestObject('android.widget.ImageView0 (2)'), 0)
+Mobile.tap(findTestObject('android.widget.ImageView0 (3)'), 0)
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('android.widget.TextView5 -  (1)'), 0)
 
-Mobile.tap(findTestObject('android.view.View13'), 0)
+Mobile.setText(findTestObject('android.widget.EditText0 -   (3)'), 'androidtest@bookmate.com', 0)
 
-Mobile.pressBack()
+Mobile.setText(findTestObject('android.widget.EditText1 -  (1)'), '1234567', 0)
 
-Mobile.tap(findTestObject('android.widget.RelativeLayout2'), 0)
+Mobile.tap(findTestObject('android.widget.EditText1 -  (2)'), 0)
 
-Mobile.tap(findTestObject('android.widget.TextView2 -  (1)'), 0)
+Mobile.tap(findTestObject('android.widget.CheckBox0 -              .'), 0)
 
-Mobile.tap(findTestObject('android.widget.ImageView8 (1)'), 0)
+Mobile.tap(findTestObject('android.widget.CheckBox1 -  18   '), 0)
 
-Mobile.tap(findTestObject('android.widget.TextView2 -  (2)'), 0)
+Mobile.tap(findTestObject('android.widget.CheckBox2 -     '), 0)
 
-Mobile.pressBack()
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('android.widget.TextView1 - '), 0)
 
 Mobile.closeApplication()
 
